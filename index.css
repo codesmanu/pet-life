@@ -97,27 +97,35 @@ h2 {
  margin: 0 auto;
 }
 
+
 #duvidas {
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 64px 80px;
+    padding: 64px 80 px;
 }
 
-#duvidas {
+.duvida {
     position: relative;
 }
 
-#duvidas h3 {
+.duvida h3 {
     border: 2px solid #ff725e;
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
 }
 
-#duvidas img {
+.duvida img {
     position: absolute;
     top: 32px;
     right: 24px;
 }
 
+.duvida .paragrafo {
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;
+    border-left: 1px solid #ff725e;
+    border-radius: 0 0 8px;
+}
+    
