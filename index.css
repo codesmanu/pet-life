@@ -7,7 +7,8 @@
 
 
 body {
-    color: #263138
+    color: #263138;
+    padding-bottom: 24px;
 
 }
 
@@ -22,7 +23,7 @@ header {
   padding-bottom: 24px;
 }
 
-header a {
+header nav a {
     color: #ffffff;
     font-weight: 600;
     padding: 32px;
@@ -37,12 +38,13 @@ header a {
     position: relative;
 }
 
-h1
+h1,
 h2 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
 }
+
 
 .paragrafo {
     line-height: 150%;
@@ -50,7 +52,8 @@ h2 {
 }
 .botao {
     background-color: #ff725e;
-    /* vertical, horizontal */
+    border-radius: 8px;
+    color: #ffffff;
     padding: 16px 32px;
     text-decoration: none ;
 }
@@ -59,7 +62,7 @@ h2 {
     background-color: transparent;
     color: #ff7253;
     padding: 16px 32px;
-    text-underline-offset: 20px;
+    text-underline-offset: 8px;
 }
 
 .absolute {
@@ -131,5 +134,46 @@ h2 {
     margin-top: -8px;
     padding: 24px;
   }
+
+  footer{
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+  }
   
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+ footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+ }
+
+ footer p {
+    margin bottom: 16px;
+ }
+
+ footer p a {
+    color: #263138;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #263138;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+}
+
+#copyright a {
+    color: #ff9a6c
+}
+
     
