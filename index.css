@@ -177,13 +177,15 @@ footer .titulo {
 
 #copyright {
     background-color: #263138;
-    color: #ffffff;
-    padding: 24px;
+    color: #FFFFFF;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-align: center;
-}
+  }
 
-#copyright a {
-    color: #ff9a6c
-}
-
+  #copyright a {
+    color: #FF9A6C;
+  }
 
