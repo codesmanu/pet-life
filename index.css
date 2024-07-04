@@ -126,16 +126,26 @@ h2 {
     right: 24px;
   }
   
-  .duvidas p {
+  .duvidas .paragrafo {
     border-right: 1px solid #FF725E;
     border-bottom: 1px solid #FF725E;
     border-left: 1px solid #FF725E;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s;
+  }
+
+  .duvidas.ativa  .paragrafo {
+    height: fit-content;
+    opacity: 1; 
     padding: 24px;
   }
 
-  footer{
+  footer {
     background-color: rgba(255, 152, 108, 0.25);
     display: flex;
     gap: 80px;
